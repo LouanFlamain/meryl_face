@@ -56,10 +56,9 @@ btnStart.addEventListener("click", () => {
   generation();
   navbarState();
 });
-btnTest.addEventListener("click", () => {
-  console.log(posTop, posLeft);
-});
+
 btnReset.addEventListener("click", () => {
+  console.log("reset");
   container.innerHTML = "";
   state();
   navbarState();
